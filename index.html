@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive GYM Website</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7433d3320f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Section  -->
+    <div class="nav">
+      <!-- Logo  -->
+      <h2>AYAN FITNESS</h2>
+      <!-- Nav Links  -->
+      <ul id="item">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#class">Classes</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- Social Icons  -->
+        <div class="icon">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </ul>
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+    <div class="back">
+      <div class="overlay"></div>
+    </div>
+    <!-- Content -->
+    <div class="mid">
+      <p>New Way to Build Healthy Lifestyle!</p>
+      <h2>UPGRADE YOUR BODY AT AYAN FITNESS</h2>
+      <!-- Buttons  -->
+      <div class="btn">
+        <a class="simple" href="#">Get Started</a>
+        <a class="border" href="#">Learn More</a>
+      </div>
+    </div>
+    <!-- Membership Section  -->
+    <div id="home" class="details">
+      <!-- First Section  -->
+      <div class="one" data-aos="fade-up">
+        <h3>New to the AYAN FITNESS?</h3>
+        <h6>Your memebership is up to 2 months FREE (₹700/month)</h6>
+        <p>
+          AYAN FITNESS is one of the best Fitness GYM in India. We have 10 branches
+          all over India with 50+ Trainers.
+        </p>
+        <a href="#">Become a member today</a>
+      </div>
+      <!-- Second Section  -->
+      <div class="two" data-aos="fade-up">
+        <h3>Working hours</h3>
+        <br />
+        <h5>Sunday : Closed</h5>
+        <h5>Monday - Friday</h5>
+        <p>7:00 AM - 10:00 PM</p>
+        <br />
+        <h5>Monday - Friday</h5>
+        <p>7:00 AM - 10:00 PM</p>
+      </div>
+    </div>
+
+    <!-- Instructor Section  -->
+    <!-- First Section  -->
+    <div id="about" class="trainer">
+      <div class="about" data-aos="fade-up">
+        <h2>Hi, we are AYAN FITNESS</h2>
+        <p>
+          A personal trainer is an individual who has earned a certification
+          that demonstrates they have achieved a level of competency for
+          creating and delivering safe and effective exercise programs for
+          apparently healthy individuals and groups.
+          <br /><br />
+          They motivate clients by collborating to set goals, providing
+          meaningful feedback, and by being a reliable source accountability.
+          Thank you
+        </p>
+      </div>
+
+      <!-- Second Section  -->
+      <div class="people" data-aos="fade-up">
+        <!-- First Card  -->
+        <div class="team">
+          <div class="img">
+            <img src="data:image/jpeg;base64,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" />
+          </div>
+          <div class="teamDetails">
+            <div class="name">
+              <h4>Aeysha Khan</h4>
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="pro">
+              <p>Yoga Instructor</p>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card  -->
+        <div class="team">
+          <div class="img">
+            <img src="images/harsh.jpg" />
+          </div>
+          <div class="teamDetails">
+            <div class="name">
+              <h4>Harsh</h4>
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="pro">
+              <p>GYM Instructor</p>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Classes Section  -->
+    <div id="class" class="class" data-aos="fade-up">
+      <p class="paragraph">Get a Perfect Body</p>
+      <h2 class="h2">Our Training Classes</h2>
+
+      <!-- Card Section  -->
+      <div class="classMenu" data-aos="fade-up">
+        <!-- First Card  -->
+        <div class="team">
+          <div class="img">
+            <img src="images/class1.jpg" />
+          </div>
+          <div class="teamDetails">
+            <div class="name">
+              <div class="nameDetails">
+                <h4>Yoga</h4>
+                <p>Trained by - <span>Roma</span></p>
+              </div>
+              <div class="num">
+                <h5>₹2500</h5>
+              </div>
+            </div>
+            <div class="pro">
+              <p>
+                You will be trained from one <br />of the best Yoga Instructor
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Second Card  -->
+
+        <div class="team">
+          <div class="img">
+            <img src="images/class2.jpg" />
+          </div>
+          <div class="teamDetails">
+            <div class="name">
+              <div class="nameDetails">
+                <h4>Areobic</h4>
+                <p>Trained by - <span>Akansha</span></p>
+              </div>
+              <div class="num">
+                <h5>₹3500</h5>
+              </div>
+            </div>
+            <div class="pro">
+              <p>
+                You will be trained from one <br />of the best Areobic
+                Instructor
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Third Card  -->
+
+        <div class="team">
+          <div class="img">
+            <img src="images/class3.jpg" />
+          </div>
+          <div class="teamDetails">
+            <div class="name">
+              <div class="nameDetails">
+                <h4>Cardio</h4>
+                <p>Trained by - <span>Sumit</span></p>
+              </div>
+              <div class="num">
+                <h5>₹4500</h5>
+              </div>
+            </div>
+            <div class="pro">
+              <p>
+                You will be trained from one <br />of the best Cardio Instructor
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section  -->
+    <div id="contact" class="contact">
+      <!-- First Section  -->
+      <div class="form" data-aos="fade-up">
+        <h2>Any Doubts?</h2>
+        <div class="submit">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message" cols="5" rows="5"></textarea>
+          <a href="#">Send Message</a>
+        </div>
+      </div>
+      <!-- Second Section  -->
+      <div class="map" data-aos="fade-up">
+        <h2>Where you can find us</h2>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>Krishna Rajendra Rd,
+          Bengaluru, Karnataka 560002
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.66007256677!2d77.35073295903771!3d12.954517012303143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1660401382394!5m2!1sen!2sin"
+          width="500"
+          height="312"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Footer Section  -->
+    <div class="footer">
+      <p>
+        © 2022
+        <a href="https://www.linkedin.com/in/geekyprashant/" target="_blank"
+          >Ayan Mitra</a
+        >, All Rights Reserved
+      </p>
+      <p>
+        <i class="fa-solid fa-envelope"></i>ayanmitra2003@gmail.com<br />
+        <i class="fa-solid fa-phone"></i>+91 9973747063
+      </p>
+    </div>
+
+    <!-- Animate on Scroll Library  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+
+    <!-- Linking JavaScript File  -->
+    <script src="script.js"></script>
+  </body>
+</html>
